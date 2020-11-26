@@ -1,0 +1,48 @@
+.comment {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+
+  background-color: #303030;
+  word-break: break-word;
+
+  &:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+}
+
+.mainComment {
+  position: relative;
+}
+
+.metaData {
+  font-size: 12px;
+  font-weight: 300;
+  color: #ff6600;
+}
+
+.text {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.toggleCommentsButton {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #ff6600;
+  outline: none;
+}
+
+.comments {
+  padding-left: 10px;
+}

@@ -1,0 +1,24 @@
+.header {
+  padding-top: 15px;
+
+  text-align: center;
+
+  &Title {
+    border-bottom: 2px solid transparent;
+
+    font-size: 24px;
+    color: #ffffff;
+    transition: 0.2s all;
+
+    &:hover {
+      border-bottom: 2px solid #ff6600;
+
+      transition: 0.2s all;
+    }
+  }
+
+  &Subtitle {
+    font-size: 18px;
+    font-weight: 300;
+  }
+}

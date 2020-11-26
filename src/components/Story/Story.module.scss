@@ -1,0 +1,30 @@
+.story {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+
+  background-color: #303030;
+  word-break: break-word;
+  transition: 0.2s all;
+
+  &:not(:last-of-type) {
+    margin-bottom: 5px;
+  }
+
+  &:hover {
+    background-color: rgba($color: #303030, $alpha: 0.5);
+    transition: 0.2s all;
+  }
+}
+
+.title {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.metaData {
+  font-size: 12px;
+  font-weight: 300;
+  color: #ff6600;
+}

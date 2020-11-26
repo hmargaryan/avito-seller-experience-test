@@ -1,0 +1,38 @@
+.goBackButton {
+  display: inline-block;
+
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-bottom: 5px;
+
+  font-size: 24px;
+  word-break: break-word;
+}
+
+.storyLink {
+  display: inline-block;
+
+  border-bottom: 2px solid transparent;
+
+  font-weight: 300;
+  color: #ff6600;
+  transition: 0.2s all;
+
+  &:hover {
+    border-bottom: 2px solid #ff6600;
+
+    transition: 0.2s all;
+  }
+}
+
+.metaData {
+  margin-bottom: 20px;
+
+  font-weight: 300;
+}
+
+.text {
+  margin-bottom: 30px;
+}
