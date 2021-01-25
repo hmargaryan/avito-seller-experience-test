@@ -13,7 +13,7 @@ export const fetchStories = () => async (dispatch) => {
   dispatch({ type: FETCH_STORIES_REQUEST })
 
   try {
-    const { data } = await hackerNews.get('/newstories.json?print=pretty')
+    const { data } = await hackerNews.get('/newstories.json')
 
     const stories = await Promise.all(data.slice(0, 100).map(async (storyId) => {
       const { data: { id, title, score, by, time } } = await fetchItem(storyId)
